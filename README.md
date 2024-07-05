@@ -15,4 +15,4 @@ This project implements a basic Weather App To Show Weather for 3 Days
 
 ## Project Deployment
 
-Visit the [Weather App ](https://sara-mabrouk.github.io/Smart-Login-System/) deployed on GitHub Pages.
+Visit the [Weather App ](https://sara-mabrouk.github.io/Weather_App/) deployed on GitHub Pages.
