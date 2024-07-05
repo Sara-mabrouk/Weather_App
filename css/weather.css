@@ -1,0 +1,147 @@
+                body {
+                    letter-spacing: 2px;
+                    color: #fff;
+                    font-family: "Philosopher", sans-serif;
+                }
+                
+                 ::selection {
+                    background-color: #7f1408;
+                    color: #fff;
+                }
+                
+                .navbar-brand {
+                    color: #ffffffad;
+                }
+                
+                .navbar-nav .nav-link.active,
+                .navbar-nav .nav-link.show {
+                    color: #7f1408;
+                    font-weight: bold;
+                }
+                
+                .nav-link {
+                    transition: color 200ms ease-in;
+                }
+                
+                .nav-link:hover {
+                    color: #7f1408;
+                }
+                
+                .navbar-toggler:focus {
+                    box-shadow: none;
+                    color: #ffffffc7;
+                }
+                
+                #home {
+                    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/wallpaperflare.com_wallpaper\ \(2\).jpg);
+                    background-position: center;
+                    background-size: cover;
+                }
+                
+                #home .container {
+                    padding-left: 70px;
+                    padding-right: 70px;
+                }
+                
+                .input {
+                    max-width: 650px;
+                    position: relative;
+                    display: flex;
+                    margin: auto;
+                    align-items: center;
+                }
+                
+                #home .findBtn,
+                footer .subBtn {
+                    position: absolute;
+                    right: 5px;
+                    height: 85%;
+                    border-radius: 100vh;
+                    background-color: #7f1408;
+                }
+                
+                .btn-primary {
+                    border: none;
+                }
+                
+                #home input {
+                    border-radius: 100vh;
+                    border-color: #1112138c;
+                }
+                
+                #home input::placeholder {
+                    color: #ffffff7f;
+                }
+                
+                .card {
+                    border-radius: 25px;
+                    min-height: 350px;
+                    overflow: hidden;
+                }
+                
+                .card-header {
+                    background-color: #7f1408;
+                    color: #ffffffcd;
+                }
+                
+                .card .status {
+                    color: #ffc107;
+                }
+                
+                .card:hover {
+                    background-color: #7f1408;
+                    color: #fff;
+                    transition: all 0.5;
+                }
+                
+                input {
+                    border-radius: 100vh !important;
+                    border-color: #1112138c !important;
+                    background-color: #2a3640 !important;
+                }
+                
+                footer input::placeholder {
+                    color: #ffffff7f !important;
+                }
+                
+                ul span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #2a3640;
+                    color: #e4e2e2;
+                    font-size: 1.25rem;
+                    width: 2.8125rem;
+                    height: 2.8125rem;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+                }
+                
+                ul span:hover {
+                    background-color: #7f1408;
+                    color: #fff;
+                }
+                
+                @media (max-width: 550px) {
+                     :root {
+                        font-size: 14px;
+                    }
+                    #home .container {
+                        padding-left: 40px;
+                        padding-right: 40px;
+                    }
+                }
+                
+                @media (max-width: 380px) {
+                     :root {
+                        font-size: 12.5px;
+                    }
+                    #home .container {
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .navbar-brand {
+                        width: 150px;
+                    }
+                }
